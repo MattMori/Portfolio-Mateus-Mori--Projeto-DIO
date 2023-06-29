@@ -12,12 +12,12 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
       {
-        "name": "Java",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/js.png"
       },
       {
-        "name": "Angular",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/html.png"
       },
       {
         "name": "React",
@@ -28,8 +28,8 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
       },
       {
-        "name": "Postgresql",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/css.png"
       }
     ],
     "softSkills": [
