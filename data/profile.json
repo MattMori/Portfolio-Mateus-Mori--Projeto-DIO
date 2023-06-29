@@ -8,17 +8,25 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "Nodejs",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
-      },
-      {
         "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/js.png"
       },
+
       {
         "name": "HTML",
         "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/html.png"
       },
+
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/css.png"
+      },
+
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+      },
+
       {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
@@ -28,9 +36,18 @@
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
       },
       {
-        "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/css.png"
+        "name": "vscode",
+        "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/vscode.png"
+      },
+      {
+        "name": "github",
+        "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/github.png"
+      },
+      {
+        "name": "git",
+        "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/git.png"
       }
+      
     ],
     "softSkills": [
       "Empatia",
@@ -53,8 +70,8 @@
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Projeto bootcamp page da DNC com responsividade",
+      "url": "https://github.com/MattMori/Bootcamp---DNC",
       "github": true
     }
   ],
