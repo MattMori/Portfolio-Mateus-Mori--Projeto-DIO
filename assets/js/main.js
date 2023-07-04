@@ -62,19 +62,6 @@ function updateProfessionalExperience(profileData) {
     }).join('')
 }
 
-function updateTraining(profileData) {
-    const training = document.getElementById('profile.training')
-    training.innerHTML = profileData.training.map(training => {
-        return `
-            <li>
-                <h3 class="title">${training.name}</h3>
-                <p class="period">${training.period}</p>
-                <p>${training.description}</p>
-            </li>
-        `
-    }).join('')
-}
-
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
@@ -83,5 +70,4 @@ function updateTraining(profileData) {
     updateLanguages(profileData)
     updatePortfolio(profileData)
     updateProfessionalExperience(profileData)
-    updateTraining(profileData)
 })()
