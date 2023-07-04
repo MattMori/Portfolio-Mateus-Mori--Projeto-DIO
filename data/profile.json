@@ -73,7 +73,22 @@
       "name": "Projeto bootcamp page da DNC com responsividade",
       "url": "https://github.com/MattMori/Bootcamp---DNC",
       "github": true
+    },{
+      "name": "Projeto de um sistema de cadastro de produtos basico, com inserção e remoção de conteudo utilizando a manipulação de DOM por meio do JavaScript - Escola DNC",
+      "url": "https://github.com/MattMori/Miniprojeto---Cadastro-de-Produtos",
+      "github": true
+    },
+    {
+      "name": "Projeto de uma pokedex, consumindo a api de pokemon - BootCamp Dio.",
+      "url": "https://github.com/MattMori/js-developer-pokedex",
+      "github": true
+    },
+    {
+      "name": "Link para os meus repositorios no gitHub",
+      "url": "https://github.com/MattMori?tab=repositories",
+      "github": true
     }
+
   ],
   "professionalExperience": [
     {
