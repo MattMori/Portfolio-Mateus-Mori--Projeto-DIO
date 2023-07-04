@@ -11,22 +11,18 @@
         "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/js.png"
       },
-
       {
         "name": "HTML",
         "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/html.png"
       },
-
       {
         "name": "CSS",
         "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/css.png"
       },
-
       {
         "name": "Nodejs",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
       },
-
       {
         "name": "React",
         "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
@@ -47,7 +43,6 @@
         "name": "git",
         "logo": "https://raw.githubusercontent.com/MattMori/Portfolio-Mateus-Mori--Projeto-DIO/main/data/imgs/git.png"
       }
-      
     ],
     "softSkills": [
       "Empatia",
@@ -73,7 +68,8 @@
       "name": "Projeto bootcamp page da DNC com responsividade",
       "url": "https://github.com/MattMori/Bootcamp---DNC",
       "github": true
-    },{
+    },
+    {
       "name": "Projeto de um sistema de cadastro de produtos basico - Escola DNC",
       "url": "https://github.com/MattMori/Miniprojeto---Cadastro-de-Produtos",
       "github": true
@@ -88,13 +84,24 @@
       "url": "https://github.com/MattMori?tab=repositories",
       "github": true
     }
-
   ],
   "professionalExperience": [
     {
       "name": "Projetos GitHub",
       "period": "2022 - até o momento",
       "description": "Atualmente não possuo experiencia profissonal na área, mas estou investindo meu tempo em estudos e projetos pessoais nos quais posto em meu GitHub, estou em busca da minha primeira oportunidade como estagiario/junior "
+    }
+  ],
+  "training": [
+    {
+      "name": "Engenharia de software - Unicesumar",
+      "period": "02/2022 - 2026",
+      "description": "Graduação voltada para a aplicação dos princípios de engenharia no desenvolvimento de softwares. Ela engloba processos, metodologias, técnicas e ferramentas para a produção de sistemas complexos, garantindo sua qualidade, eficiência e segurança, desde a programação até a manutenção. "
+    },
+    {
+      "name": "Formação em Tecnologia - Escola DNC",
+      "period": "02/2022 - 2026",
+      "description": "Graduação voltada para as tecnologias mais requisitadas do mercado em ambas as pontas do desenvolvimento: front-end e back-end, aprendendo a desenvolver sites e aplicativos web, Além de criar e manipular estruturas de banco de dados. "
     }
   ]
 }
