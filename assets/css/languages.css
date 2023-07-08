@@ -1,3 +1,4 @@
+/* Estilos para a lista de idiomas */
 .languages {
     display: flex;
     flex-direction: row;
@@ -7,7 +8,7 @@
     padding: 0;
     list-style: none;
 }
-
+/* Estilos para cada item da lista de idiomas */
 .languages li {
     display: flex;
     flex-direction: row;
@@ -15,7 +16,7 @@
     padding-right: 1rem;
     font-weight: 700;
 }
-
+/* Estilos para o ícone antes de cada item da lista de idiomas */
 .languages li::before {
     content: "";
     display: inline-block;

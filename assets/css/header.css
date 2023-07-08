@@ -1,10 +1,11 @@
+/* Estilos para o cabeçalho */
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
-
+/* Estilos para o elemento ::after no cabeçalho */
 .header::after {
     content: '';
     display: inline-block;
@@ -17,25 +18,25 @@
     background-size: contain;
     background-image: url('../img/icons/header.svg');
 }
-
+/* Estilos para a foto do cabeçalho */
 .header .photo {
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
-
+/* Estilos para o título do cabeçalho */
 .header .title {
     font-family: 'Neue Machina';
     text-align: center;
 }
-
+/* Estilos para as informações do cabeçalho */
 .information {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
 }
-
+/* Estilos para cada parágrafo de informação */
 .information p {
     display: flex;
     flex-direction: row;
@@ -43,7 +44,7 @@
     margin: .5rem;
     font-size: 1.125rem;
 }
-
+/* Estilos para o ícone antes de cada parágrafo de informação */
 .information p::before {
     content: '';
     display: inline-block;
@@ -53,23 +54,23 @@
     background-size: contain;
     margin-right: .5rem;
 }
-
+/* Estilos para o ícone de trabalho */
 .information .job::before {
     background-image: url('../img/icons/job.svg');
 }
-
+/* Estilos para o ícone de localização */
 .information .location::before {
     background-image: url('../img/icons/location.svg');
 }
-
+/* Estilos para o ícone de e-mail */
 .information .email::before {
     background-image: url('../img/icons/email.svg');
 }
-
+/* Estilos para o ícone de telefone */
 .information .phone::before {
     background-image: url('../img/icons/phone.svg');
 }
-
+/* Estilos para telas maiores que 768px */
 @media only screen and (min-width: 768px) {
     .header {
         display: grid;

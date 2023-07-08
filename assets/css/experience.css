@@ -1,3 +1,4 @@
+/* Estilos para a lista de experiências */
 .experience {
     display: flex;
     flex-direction: column;
@@ -5,17 +6,17 @@
     padding: 0;
     list-style: none;
 }
-
+/* Estilos para cada item da lista de experiências */
 .experience li {
     margin-bottom: 1rem;
 }
-
+/* Estilos para o período da experiência */
 .experience li .period {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
+/* Estilos para o ícone do calendário que fica antes do período */
 .experience li .period::before {
     content: "";
     display: inline-block;

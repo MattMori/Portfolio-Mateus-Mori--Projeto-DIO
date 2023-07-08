@@ -1,3 +1,4 @@
+/* Estilos para o acordeão */
 .acordeon {
     display: flex;
     flex-direction: column;
@@ -7,13 +8,13 @@
     border-radius: 1rem;
     transition: .25s;
 }
-
+/* Estilos para o acordeão aberto e quando o mouse está sobre ele */
 .acordeon.open,
 .acordeon:hover {
     background-color: #3c0865;
     border-color: #3c0865;
 }
-
+/* Estilos para o gatilho do acordeão */
 .acordeon .trigger {
     display: flex;
     flex-direction: row;
@@ -26,17 +27,17 @@
     color: #fff;
     border: none;
 }
-
+/* Estilos para o título do gatilho do acordeão */
 .acordeon .trigger h2 {
     margin: 0;
     font-size: 1.5rem;
     text-align: start;
 }
-
+/* Estilos quando o mouse está sobre o gatilho */
 .acordeon .trigger:hover {
     cursor: pointer;
 }
-
+/* Estilos para o ícone do acordeão */
 .acordeon .trigger::after {
     content: '';
     display: inline-block;
@@ -47,18 +48,18 @@
     background-image: url('../img/icons/arrow-top.svg');
     transition: .25s;
 }
-
+/* Estilos para o ícone do acordeão quando está aberto */
 .acordeon.open .trigger::after {
     transform: rotate(180deg);
 }
-
+/* Estilos para o conteúdo do acordeão */
 .acordeon .content {
     overflow: hidden;
     height: 0;
     opacity: 0;
     transition: opacity .25s ease-in-out;
 }
-
+/* Estilos para o conteúdo do acordeão quando está aberto */
 .acordeon.open .content {
     display: block;
     padding: 0 1rem 1rem 2rem;

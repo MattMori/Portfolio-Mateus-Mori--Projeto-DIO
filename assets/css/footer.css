@@ -1,3 +1,4 @@
+/* Estilos para o rodapé */
 footer {
     width: 100%;
     display: flex;
@@ -6,7 +7,7 @@ footer {
     align-items: center;
     padding: 1rem;
 }
-
+/* Estilos para as imagens no rodapé */
 footer img {
     max-width: 100px;
 }

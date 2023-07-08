@@ -1,8 +1,9 @@
+/* Estilos para a seção de habilidades */
 .skills {
     display: flex;
     flex-direction: column;
 }
-
+/* Estilos para a lista de ferramentas de habilidades */
 .skills .tools ul {
     display: flex;
     flex-direction: row;
@@ -13,13 +14,13 @@
     padding: 0;
     list-style: none;
 }
-
+/* Estilos para as imagens das ferramentas de habilidades */
 .skills .tools ul li img {
     max-width: 50px;
     max-height: 50px;
     margin: 0 .5rem;
 }
-
+/* Estilos para a lista de habilidades pessoais */
 .skills .personal ul {
     display: flex;
     flex-direction: row;
@@ -29,12 +30,12 @@
     margin: 0;
     padding: 0;
 }
-
+/* Estilos para cada item da lista de habilidades pessoais */
 .skills .personal ul li {
     margin-left: 2rem;
     padding: .5rem
 }
-
+/* Estilos para telas maiores que 768px */
 @media only screen and (min-width: 768px) {
     .skills {
         display: grid;

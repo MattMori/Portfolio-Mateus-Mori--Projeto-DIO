@@ -1,4 +1,4 @@
-
+// Função que atualiza as informações básicas do perfil
 function updateProfileInfo(profileData) {
     const photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
@@ -21,22 +21,22 @@ function updateProfileInfo(profileData) {
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
 }
-
+// Função que atualiza as habilidades sociais do perfil
 function updateSoftSkills(profileData) {
     const softSkills = document.getElementById('profile.skills.softSkills')
     softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
 }
-
+// Função que atualiza as habilidades técnicas do perfil
 function updateHardSkills(profileData) {
     const hardSkills = document.getElementById('profile.skills.hardSkills')
     hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`).join('')
 }
-
+// Função que atualiza os idiomas do perfil
 function updateLanguages(profileData) {
     const languages = document.getElementById('profile.languages')
     languages.innerHTML = profileData.languages.map(language => `<li>${language}</li>`).join('')
 }
-
+// Função que atualiza o portfólio do perfil
 function updatePortfolio(profileData) {
     const portfolio = document.getElementById('profile.portfolio')
     portfolio.innerHTML = profileData.portfolio.map(project => {
@@ -48,7 +48,7 @@ function updatePortfolio(profileData) {
         `
     }).join('')
 }
-
+// Função que atualiza a experiência profissional do perfil
 function updateProfessionalExperience(profileData) {
     const professionalExperience = document.getElementById('profile.professionalExperience')
     professionalExperience.innerHTML = profileData.professionalExperience.map(experience => {
@@ -61,7 +61,7 @@ function updateProfessionalExperience(profileData) {
         `
     }).join('')
 }
-
+// Função que atualiza a formação e treinamento do perfil
 function updateTraining(profileData) {
     const training = document.getElementById('profile.training')
     training.innerHTML = profileData.training.map(training => {
@@ -74,7 +74,7 @@ function updateTraining(profileData) {
         `
     }).join('')
 }
-
+// Função assíncrona que busca os dados do perfil e atualiza as seções do perfil
 (async () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
